@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
   background-color: white;
   border-bottom: 1px solid;
   border-bottom-color: rgb(225, 225, 225);
@@ -107,9 +108,27 @@
 
 .notifications-icon{
   height: 24px;
+  
 }
 
 .current-user-picture{
   height: 32px;
   border-radius: 16px;
+}
+
+.notifications-icon-container{
+  position: relative;
+  font-family: Roboto, Arial;
+
+}
+
+.notifications-count{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-size: 11px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px;
 }

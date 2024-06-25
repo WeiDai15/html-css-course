@@ -5,7 +5,12 @@
   top: 55px;
   background-color: white;
   width: 72px;
-  
+  /* display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  font-family: Arial;
+  padding: 0 24px 0 24px;
+  align-self: center; */
 }
 
 .home-icon{
